@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "animatedgradientview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rwbutler/AnimatedGradientView.git",
+      "state" : {
+        "revision" : "c82c3c0e311a7164f0bee4bd52ca525c5b6da4f6",
+        "version" : "3.1.1"
+      }
+    },
+    {
+      "identity" : "fancygradient",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Nikoloutsos/fancyGradient.git",
+      "state" : {
+        "revision" : "4facccb2bd830cb497cc1d67b7e93b35d0a6b95f",
+        "version" : "1.0.2"
+      }
+    }
+  ],
+  "version" : 2
+}

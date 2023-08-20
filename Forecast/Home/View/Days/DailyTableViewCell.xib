@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="alumni_s_regular.ttf">
+            <string>AlumniSansInlineOne-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="day" rowHeight="144" id="KGk-i7-Jjw" customClass="DailyTableViewCell" customModule="Forecast" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="365" height="144"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="365" height="144"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MDc-Qa-RQn">
+                        <rect key="frame" x="16" y="20" width="333" height="112"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dummyweather" translatesAutoresizingMaskIntoConstraints="NO" id="wJS-Y8-dbL">
+                                <rect key="frame" x="226" y="0.0" width="107" height="112"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RDg-g9-xwZ">
+                                <rect key="frame" x="24" y="33.333333333333336" width="26" height="28.666666666666664"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="o" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xi6-6h-Ena">
+                                <rect key="frame" x="50" y="27.333333333333336" width="10" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p3I-Su-Mxc">
+                                <rect key="frame" x="60" y="38" width="14" height="24"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Clear sky" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sbB-jD-sC0">
+                                <rect key="frame" x="24" y="62.000000000000007" width="66" height="19.333333333333336"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="wJS-Y8-dbL" secondAttribute="trailing" id="298-LA-dbA"/>
+                            <constraint firstItem="sbB-jD-sC0" firstAttribute="top" secondItem="RDg-g9-xwZ" secondAttribute="bottom" id="7xW-Gb-EL4"/>
+                            <constraint firstItem="Xi6-6h-Ena" firstAttribute="top" secondItem="RDg-g9-xwZ" secondAttribute="top" constant="-6" id="DN1-hZ-ALR"/>
+                            <constraint firstItem="Xi6-6h-Ena" firstAttribute="leading" secondItem="RDg-g9-xwZ" secondAttribute="trailing" id="U6l-VV-Bd3"/>
+                            <constraint firstItem="wJS-Y8-dbL" firstAttribute="width" secondItem="MDc-Qa-RQn" secondAttribute="width" multiplier="0.321321" id="UkP-Ge-evQ"/>
+                            <constraint firstItem="wJS-Y8-dbL" firstAttribute="height" secondItem="MDc-Qa-RQn" secondAttribute="height" id="VH7-GJ-w3o"/>
+                            <constraint firstAttribute="trailing" secondItem="wJS-Y8-dbL" secondAttribute="trailing" id="VQ1-ui-E8P"/>
+                            <constraint firstItem="p3I-Su-Mxc" firstAttribute="leading" secondItem="Xi6-6h-Ena" secondAttribute="trailing" id="XFc-uc-ZKl"/>
+                            <constraint firstItem="RDg-g9-xwZ" firstAttribute="centerY" secondItem="MDc-Qa-RQn" secondAttribute="centerY" multiplier="0.85" id="cbs-eo-dKb"/>
+                            <constraint firstItem="sbB-jD-sC0" firstAttribute="leading" secondItem="RDg-g9-xwZ" secondAttribute="leading" id="eJq-9K-asM"/>
+                            <constraint firstItem="RDg-g9-xwZ" firstAttribute="leading" secondItem="MDc-Qa-RQn" secondAttribute="leading" constant="24" id="jDc-zV-p2d"/>
+                            <constraint firstItem="wJS-Y8-dbL" firstAttribute="centerY" secondItem="MDc-Qa-RQn" secondAttribute="centerY" id="kcx-Uv-Hwq"/>
+                            <constraint firstItem="p3I-Su-Mxc" firstAttribute="bottom" secondItem="RDg-g9-xwZ" secondAttribute="bottom" id="wII-xW-aid"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wednesday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gfr-7p-nt6">
+                        <rect key="frame" x="49.999999999999993" y="-1.6666666666666679" width="118.33333333333331" height="39"/>
+                        <fontDescription key="fontDescription" name="AlumniSansInlineOne-Regular" family="Alumni Sans Inline One" pointSize="32"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="MDc-Qa-RQn" secondAttribute="bottom" constant="12" id="DD6-lE-cDj"/>
+                    <constraint firstItem="MDc-Qa-RQn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="F0o-6q-yeg"/>
+                    <constraint firstAttribute="trailing" secondItem="MDc-Qa-RQn" secondAttribute="trailing" constant="16" id="GKj-aF-5It"/>
+                    <constraint firstItem="gfr-7p-nt6" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="-1.5" id="Ve1-fi-Tfa"/>
+                    <constraint firstItem="MDc-Qa-RQn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="Xn8-yW-ypQ"/>
+                    <constraint firstItem="gfr-7p-nt6" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="50" id="ywT-TQ-PX7"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="dayOfTheWeek" destination="gfr-7p-nt6" id="rUU-NT-fOX"/>
+                <outlet property="degreeNumber" destination="RDg-g9-xwZ" id="IWb-bp-fEV"/>
+                <outlet property="degreeType" destination="p3I-Su-Mxc" id="Lh6-jx-njx"/>
+                <outlet property="fullCard" destination="MDc-Qa-RQn" id="m65-CL-R4i"/>
+                <outlet property="weatherDescription" destination="sbB-jD-sC0" id="sUa-PS-H0h"/>
+                <outlet property="weatherImg" destination="wJS-Y8-dbL" id="1Kx-4R-rua"/>
+                <outlet property="weekDayLabelHeight" destination="Ve1-fi-Tfa" id="Gey-BV-5ws"/>
+            </connections>
+            <point key="canvasLocation" x="-45.038167938931295" y="23.943661971830988"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="dummyweather" width="512" height="512"/>
+    </resources>
+</document>

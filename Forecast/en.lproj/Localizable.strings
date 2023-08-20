@@ -1,0 +1,42 @@
+/* 
+  Localizable.strings
+  Forecast
+
+  Created by Ahmed on 03/08/2023.
+  
+*/
+
+"Home" = "Home";
+"Saved" = "Saved";
+"Alerts" = "Alert";
+"Sunset" = "Sunset";
+"Sunrise" = "Sunrise";
+"Settings" = "Settings";
+"Wind" = "Wind";
+"Cloud" = "Cloud";
+"Humidity" = "Humidity";
+"Pressure" = "pressure";
+"Visibility" = "Visibility";
+"K" = "K";
+"F" = "F";
+"C" = "C";
+"M/S" = "M/S";
+"M/H" = "M/H";
+"M" = "M";
+"GPS" = "GPS" ;
+"Map" = "Map" ;
+"Notification" = "Notification" ;
+"Alarm" = "Alarm" ;
+"Kelvin" = "Kelvin" ;
+"Fahrenheit" = "Fahrenheit" ;
+"Celsius" = "Celsius" ;
+"Miles\n/Hour" = "Miles\n/Hour" ;
+"Meters\n/Sec" = "Meters\n/Sec" ;
+"English" = "English" ;
+"Arabic" = "العربيه" ;
+"English" = "English";
+"Arabic" = "العربيه";
+"Location" = "Location" ;
+"Temperature" = "Temperature" ;
+"Speed" = "Speed" ;
+"Language" = "Language" ;

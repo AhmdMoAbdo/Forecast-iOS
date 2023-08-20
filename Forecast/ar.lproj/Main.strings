@@ -1,0 +1,174 @@
+
+/* Class = "UILabel"; text = "Location Method"; ObjectID = "38b-k1-6yK"; */
+"38b-k1-6yK.text" = "Location Method";
+
+/* Class = "UILabel"; text = "No Saved Alerts"; ObjectID = "4Wr-vQ-d5d"; */
+"4Wr-vQ-d5d.text" = "No Saved Alerts";
+
+/* Class = "UILabel"; text = "Temperature"; ObjectID = "4bF-Op-4nf"; */
+"4bF-Op-4nf.text" = "Temperature";
+
+/* Class = "UILabel"; text = "2 M/S"; ObjectID = "4bp-EX-7Vu"; */
+"4bp-EX-7Vu.text" = "2 M/S";
+
+/* Class = "UITabBarItem"; title = "Saved"; ObjectID = "4pj-37-P3i"; */
+"4pj-37-P3i.title" = "قائمتي";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "5KA-ec-eke"; */
+"5KA-ec-eke.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Cloud"; ObjectID = "5hu-bq-4Ob"; */
+"5hu-bq-4Ob.text" = "Cloud";
+
+/* Class = "UILabel"; text = "Language"; ObjectID = "834-h8-zxa"; */
+"834-h8-zxa.text" = "Language";
+
+/* Class = "UILabel"; text = "Home"; ObjectID = "9ay-sa-UWP"; */
+"9ay-sa-UWP.text" = "الرئيسيه";
+
+/* Class = "UILabel"; text = "Humidity"; ObjectID = "9lc-7h-ITb"; */
+"9lc-7h-ITb.text" = "Humidity";
+
+/* Class = "UILabel"; text = "Settings"; ObjectID = "9oc-q3-yq6"; */
+"9oc-q3-yq6.text" = "الاعدادات";
+
+/* Class = "UILabel"; text = "No Saved Locations"; ObjectID = "FNZ-fL-yxc"; */
+"FNZ-fL-yxc.text" = "لا توجد اماكن مسجله";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "FSy-RR-q1l"; */
+"FSy-RR-q1l.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Pick Location"; ObjectID = "KaK-vx-4f5"; */
+"KaK-vx-4f5.configuration.title" = "Pick Location";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "KaK-vx-4f5"; */
+"KaK-vx-4f5.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "1/5"; ObjectID = "LBe-Gw-tGl"; */
+"LBe-Gw-tGl.text" = "1/5";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "MbZ-qR-SiE"; */
+"MbZ-qR-SiE.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Speed"; ObjectID = "Ns7-Cj-rc7"; */
+"Ns7-Cj-rc7.text" = "Speed";
+
+/* Class = "UIButton"; configuration.title = "Delete"; ObjectID = "O0G-4v-kx5"; */
+"O0G-4v-kx5.configuration.title" = "Delete";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "O0G-4v-kx5"; */
+"O0G-4v-kx5.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "QeT-xP-o7G"; */
+"QeT-xP-o7G.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "RPp-bg-hZo"; */
+"RPp-bg-hZo.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "K"; ObjectID = "SFq-N1-Fku"; */
+"SFq-N1-Fku.text" = "K";
+
+/* Class = "UILabel"; text = "4:45Am"; ObjectID = "TM3-Jc-66h"; */
+"TM3-Jc-66h.text" = "4:45Am";
+
+/* Class = "UILabel"; text = "Alerts"; ObjectID = "Tvh-6F-Lea"; */
+"Tvh-6F-Lea.text" = "Alerts";
+
+/* Class = "UILabel"; text = "1020 HPA"; ObjectID = "U34-rI-fyY"; */
+"U34-rI-fyY.text" = "1020 HPA";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Uy8-RT-ad8"; */
+"Uy8-RT-ad8.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "20%"; ObjectID = "Vze-6Q-7Ao"; */
+"Vze-6Q-7Ao.text" = "20%";
+
+/* Class = "UILabel"; text = "Clear sky"; ObjectID = "awp-4O-VnS"; */
+"awp-4O-VnS.text" = "Clear sky";
+
+/* Class = "UIButton"; configuration.title = "+"; ObjectID = "bc6-Mh-882"; */
+"bc6-Mh-882.configuration.title" = "+";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "bc6-Mh-882"; */
+"bc6-Mh-882.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "13"; ObjectID = "bfL-bm-YqI"; */
+"bfL-bm-YqI.text" = "13";
+
+/* Class = "UILabel"; text = "C"; ObjectID = "cqL-4c-19J"; */
+"cqL-4c-19J.text" = "C";
+
+/* Class = "UIButton"; configuration.title = "+"; ObjectID = "dwe-u4-uLa"; */
+"dwe-u4-uLa.configuration.title" = "+";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "dwe-u4-uLa"; */
+"dwe-u4-uLa.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "6000 M"; ObjectID = "e23-dq-P2V"; */
+"e23-dq-P2V.text" = "6000 M";
+
+/* Class = "UILabel"; text = "M/H"; ObjectID = "ePn-0Z-EJx"; */
+"ePn-0Z-EJx.text" = "M/H";
+
+/* Class = "UILabel"; text = "2 M/S"; ObjectID = "fHG-G1-xjW"; */
+"fHG-G1-xjW.text" = "2 M/S";
+
+/* Class = "UILabel"; text = "ABC"; ObjectID = "g8M-aa-x7f"; */
+"g8M-aa-x7f.text" = "ABC";
+
+/* Class = "UILabel"; text = "Are you sure you want to delete this item?"; ObjectID = "iRC-t6-4Vl"; */
+"iRC-t6-4Vl.text" = "Are you sure you want to delete this item?";
+
+/* Class = "UILabel"; text = "Wind"; ObjectID = "j3c-Mo-BRH"; */
+"j3c-Mo-BRH.text" = "Wind";
+
+/* Class = "UILabel"; text = "Saved"; ObjectID = "jGu-7O-Qwn"; */
+"jGu-7O-Qwn.text" = "Saved";
+
+/* Class = "UILabel"; text = "London,UK"; ObjectID = "lgx-Be-NY7"; */
+"lgx-Be-NY7.text" = "London,UK";
+
+/* Class = "UIButton"; configuration.title = "Cancel"; ObjectID = "niR-hU-HpF"; */
+"niR-hU-HpF.configuration.title" = "Cancel";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "niR-hU-HpF"; */
+"niR-hU-HpF.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "F"; ObjectID = "o8W-oQ-qYa"; */
+"o8W-oQ-qYa.text" = "F";
+
+/* Class = "UILabel"; text = "Location"; ObjectID = "oUO-DV-0ok"; */
+"oUO-DV-0ok.text" = "Location";
+
+/* Class = "UITabBarItem"; title = "Alert"; ObjectID = "rQT-5A-IUT"; */
+"rQT-5A-IUT.title" = "Alert";
+
+/* Class = "UILabel"; text = "Visibility"; ObjectID = "sAU-x4-cZI"; */
+"sAU-x4-cZI.text" = "Visibility";
+
+/* Class = "UILabel"; text = "C"; ObjectID = "tHv-s5-2Xr"; */
+"tHv-s5-2Xr.text" = "C";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "tMW-1d-pz6"; */
+"tMW-1d-pz6.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Alerts"; ObjectID = "ug2-7Q-4jk"; */
+"ug2-7Q-4jk.text" = "Alerts";
+
+/* Class = "UILabel"; text = "18,Mar,2023/12:30PM"; ObjectID = "uzi-bR-IxH"; */
+"uzi-bR-IxH.text" = "18,Mar,2023/12:30PM";
+
+/* Class = "UILabel"; text = "M/S"; ObjectID = "wLS-kD-oml"; */
+"wLS-kD-oml.text" = "M/S";
+
+/* Class = "UILabel"; text = "Pressure"; ObjectID = "x0q-V3-Vhi"; */
+"x0q-V3-Vhi.text" = "Pressure";
+
+/* Class = "UILabel"; text = "o"; ObjectID = "y7r-zv-eey"; */
+"y7r-zv-eey.text" = "o";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ydl-Jf-PP3"; */
+"ydl-Jf-PP3.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Sunrise"; ObjectID = "zh3-KI-ceU"; */
+"zh3-KI-ceU.text" = "Sunrise";

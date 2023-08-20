@@ -1,0 +1,42 @@
+/* 
+  Localizable.strings
+  Forecast
+
+  Created by Ahmed on 03/08/2023.
+  
+*/
+
+
+"Home" = "الرئيسيه";
+"Saved" = "قائمتي";
+"Alerts" = "التنبيهات";
+"Sunset" = "الغروب";
+"Sunrise" = "الشروق";
+"Settings" = "الاعدادات";
+"Wind" = "الرياح";
+"Cloud" = "السحب";
+"Humidity" = "الرطوبه";
+"Pressure" = "الضغط";
+"Visibility" = "الرؤيه";
+"K" = "ك";
+"F" = "ف";
+"C" = "م";
+"M/S" = "م/ث";
+"M/H" = "م/س";
+"M" = "م";
+"GPS" = "القمر الصناعي";
+"Map" = "الخريطه";
+"Notification" = "الاشعارات";
+"Alarm" = "المنبه";
+"Kelvin" = "كلفن";
+"Fahrenheit" = "فهرنهايت";
+"Celsius" = "مئويه";
+"Miles\n/Hour" = "ميل\n/ساعه";
+"Meters\n/Sec" = "متر\n/ثانيه";
+"English" = "English";
+"Arabic" = "العربيه";
+"Location" = "الموقع" ;
+"Temperature" = "درجة الحراره" ;
+"Speed" = "السرعه" ;
+"Language" = "اللغه" ;
+

@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import LanguageManager_iOS
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -17,6 +18,17 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
+        
+        if UserDefaultsManger.userDefaultHandler.getLanguage() == LanguageType.en.rawValue{
+            LanguageManager.shared.defaultLanguage = .en
+        }else{
+            LanguageManager.shared.setLanguage(language: .ar)
+        }
+        if UserDefaultsManger.userDefaultHandler.checkIfFirrstTime() {
+            let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+            let boarding = storyBoard.instantiateViewController(withIdentifier: "boarding")
+            window?.rootViewController = boarding
+        }
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

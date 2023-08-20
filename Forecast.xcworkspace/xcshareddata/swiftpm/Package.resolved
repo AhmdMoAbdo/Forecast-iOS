@@ -1,0 +1,68 @@
+{
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "revision" : "bc268c28fb170f494de9e9927c371b8342979ece",
+        "version" : "5.7.1"
+      }
+    },
+    {
+      "identity" : "alamofireimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/AlamofireImage.git",
+      "state" : {
+        "revision" : "98cbb00ce0ec5fc8e52a5b50a6bfc08d3e5aee10",
+        "version" : "4.2.0"
+      }
+    },
+    {
+      "identity" : "animatedgradientview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rwbutler/AnimatedGradientView.git",
+      "state" : {
+        "revision" : "c82c3c0e311a7164f0bee4bd52ca525c5b6da4f6",
+        "version" : "3.1.1"
+      }
+    },
+    {
+      "identity" : "fancygradient",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Nikoloutsos/fancyGradient.git",
+      "state" : {
+        "revision" : "4facccb2bd830cb497cc1d67b7e93b35d0a6b95f",
+        "version" : "1.0.2"
+      }
+    },
+    {
+      "identity" : "imageslideshow",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zvonicek/ImageSlideshow.git",
+      "state" : {
+        "revision" : "a54e24d47944a1ca84c2a7bf03cb435425a9929d",
+        "version" : "1.9.2"
+      }
+    },
+    {
+      "identity" : "kingfisher",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/onevcat/Kingfisher.git",
+      "state" : {
+        "revision" : "1a0c2df04b31ed7aa318354f3583faea24f006fc",
+        "version" : "5.15.8"
+      }
+    },
+    {
+      "identity" : "sdwebimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImage.git",
+      "state" : {
+        "revision" : "633996a807442ec28df9d33b0f88ce57a0e2fdbf",
+        "version" : "5.17.0"
+      }
+    }
+  ],
+  "version" : 2
+}
